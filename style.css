@@ -6,7 +6,7 @@
 
 .Mycontainer {
     display:flex;
-    border: 10px solid green;
+    border: 10px solid rgb(206, 75, 158);
     background-color: pink;
 }
 
@@ -35,4 +35,11 @@
  padding:100px;
 }
 
- 
+#bigTitle{
+   color:rgb(102, 242, 161);
+}
+#description{
+    color:rgb(130, 214, 165);
+}
+
+
