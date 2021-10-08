@@ -1,5 +1,5 @@
-<script>
+ 
 function showAlert() {
-  alert ("Hello world!");
+  alert ("https://www.instagram.com/anna.z.z.a.g/");
 }
-</script>
+ 
