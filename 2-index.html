@@ -10,16 +10,6 @@
 </head>
 
 <Body >
-<!-- head section with big name and description -->
-    <div class="p-5 mb-4 bg-success rounded-3"  >  
-        <h1 class="display-3 fw-bold text-center" id="bigTitle">Bacon, Fetta & Zucchini Muffins </h1>
-          <p class="  col-md-auto  fs-4 text-center" id="description">Budget friendly muffins and oh so tasty. This zucchini recipe 
-          combines bacon and feta for a light snack or lunchbox treat.
-          An easy veggie smuggler recipe the kids will love.</p>
-        <hr class="my-2">
-       
-         </div>
-
          <!--added navbar-->
          <div class="m-4">
           <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -64,17 +54,29 @@
       </div>
 <br>
 
+<!-- head section with big name and description -->
+    <div class="p-5 mb-4 bg-success rounded-3"  >  
+        <h1 class="display-3 fw-bold text-center" id="bigTitle">Bacon, Fetta & Zucchini Muffins </h1>
+          <p class="  col-md-auto  fs-4 text-center" id="description">Budget friendly muffins and oh so tasty. This zucchini recipe 
+          combines bacon and feta for a light snack or lunchbox treat.
+          An easy veggie smuggler recipe the kids will love.</p>
+        <hr class="my-2">
+       
+         </div>
+
+
+
 
 <!-- place for the image of the dish -->
   <div class="container">
       <figure class="figure d-grid gap-2 col-6 mx-auto" >
         <img src="/images/Bacon-Fetta and Zucchini Muffins .jpeg" class="figure-img img-fluid rounded" alt="...">
-        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        <figcaption class="figure-caption"> </figcaption>
       </figure>
   </div>
  <!-- share button -->
      <div class="d-grid gap-2 col-2 mx-auto">
-       <a onclick="alert(`https://www.instagram.com/anna.z.z.a.g/`);" class="btn btn-success btn-lg" href="#" role="button">SHARE</a>
+       <a onclick=showAlert(); class="btn btn-success btn-lg" href="#" role="button">SHARE</a>
     </div>
     <br>
  <!-- Adding a table of ingredients -->   
@@ -145,7 +147,7 @@
   </table>
 </div>
  
-
+<script src="/app.js"> </script>
 
 </Body >
 
