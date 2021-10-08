@@ -45,17 +45,17 @@
 
 .nav-link {
    
-    color: #39c627de;
+    color: #2b9751;
 }
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #39c627de;
+    background-color: #2b9751;
 }
 
 .nav-link:focus, .nav-link:hover {
-    color: #39c627de;
+    color: #2b9751;
 }
 
 .img-responsive{
