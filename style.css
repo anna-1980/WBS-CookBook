@@ -40,8 +40,9 @@
 }
 #description{
     color:rgb(130, 214, 165);
+    margin-left: 19%;
+   margin-right: 19%; 
 }
-
 
 .nav-link {
    
@@ -149,3 +150,8 @@
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
     }
+
+.footer {
+    background-color:rgb(43, 151, 81)
+}
+
