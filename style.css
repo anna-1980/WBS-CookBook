@@ -44,4 +44,9 @@
    margin-right: 19%; 
 }
 
-
+#navbar {
+    background-color: blue
+}
+.footer {
+    background-color:rgb(43, 151, 81)
+}
