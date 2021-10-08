@@ -1,3 +1,3 @@
 function shareButton() {
-    alert("Hello! I am an alert box!");
+    alert(`https://www.instagram.com/anna.z.z.a.g/`);
   }
