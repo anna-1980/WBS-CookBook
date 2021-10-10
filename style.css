@@ -59,6 +59,10 @@
     color: #2b9751;
 }
 
+.row>* {
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+    padding-top: calc(var(--bs-gutter-x) * .5);
+}
 .img-responsive{
     width: 100%;
     height: auto;
