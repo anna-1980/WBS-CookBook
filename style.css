@@ -64,7 +64,7 @@ nav .container-nav {
 }
 
 .row>* {
-    padding-bottom: calc(var(--bs-gutter-x) * 1o);
+    padding-bottom: calc(var(--bs-gutter-x) * 1);
     
 }
 .img-responsive{
