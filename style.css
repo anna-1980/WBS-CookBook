@@ -1,6 +1,7 @@
-#body {
- 
-    background-color: rgb(254, 239, 153);
+body, html {
+    margin: 0;
+    padding: 0;
+
     
 }
 
@@ -44,6 +45,7 @@
    margin-right: 19%; 
 }
 
+ 
 /*styling hover in 2-index.html*/
 
 
@@ -65,11 +67,16 @@
 /*styling hover in 2-index.html*/
 
 
+ 
+nav .container-nav {
+    padding-top: var(--bs-gutter-x,1.75rem);
+}
+
+ 
 .nav-link {
    
     color: #2b9751;
 }
-
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
@@ -80,6 +87,10 @@
     color: #2b9751;
 }
 
+.row>* {
+    padding-bottom: calc(var(--bs-gutter-x) * 1);
+    
+}
 .img-responsive{
     width: 100%;
     height: auto;
