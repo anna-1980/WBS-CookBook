@@ -45,10 +45,29 @@ body, html {
    margin-right: 19%; 
 }
 
+ 
+/*styling hover in 2-index.html*/
+
+
+
+.imageContainer {
+    display:flex;
+    flex-direction:column; 
+    
+}
+
+
+ 
+
+/*styling hover in 2-index.html*/
+
+
+ 
 nav .container-nav {
     padding-top: var(--bs-gutter-x,1.75rem);
 }
 
+ 
 .nav-link {
    
     color: #2b9751;
