@@ -44,6 +44,27 @@
    margin-right: 19%; 
 }
 
+/*styling hover in 2-index.html*/
+
+
+
+.imageContainer {
+    display:flex;
+    flex-direction:column; 
+    
+}
+
+.overlay{
+    position:absolute;
+    align-items:center;
+    border: 5px solid red;
+    background:yellow;
+}
+ 
+
+/*styling hover in 2-index.html*/
+
+
 .nav-link {
    
     color: #2b9751;
