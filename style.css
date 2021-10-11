@@ -56,12 +56,7 @@ body, html {
     
 }
 
-.overlay{
-    position:absolute;
-    align-items:center;
-    border: 5px solid red;
-    background:yellow;
-}
+
  
 
 /*styling hover in 2-index.html*/
