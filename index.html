@@ -57,219 +57,396 @@
   </div>
 </head>
   <body>
-    <nav>
-      <!--Placeholder Content-->
-      <div class="d-flex align-items-start">
-        
-        <!--Navigation bar buttons-->
-        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <button class="nav-link active" id="v-pills-brunch-tab" data-bs-toggle="pill" data-bs-target="#v-pills-brunch" type="button" role="tab" aria-controls="v-pills-brunch" aria-selected="true">Brunch</button>
-          <button class="nav-link" id="v-pills-soups-tab" data-bs-toggle="pill" data-bs-target="#v-pills-soups" type="button" role="tab" aria-controls="v-pills-soups" aria-selected="false">Soups</button>
-          <button class="nav-link" id="v-pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-desserts" type="button" role="tab" aria-controls="v-pills-desserts" aria-selected="false">Desserts</button>
-          <button class="nav-link" id="v-pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dinner" type="button" role="tab" aria-controls="v-pills-dinner" aria-selected="false">Dinner</button>
+    <!--Carousel-->
+    <div class="container-md">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <!--Tab of the navigation bar-->
-        <div class="tab-content" id="v-pills-tabContent">
-          <!--Tab of the button Brunch-->
-          <div class="tab-pane fade show active" id="v-pills-brunch" role="tabpanel" aria-labelledby="v-pills-brunch-tab">
-            <!--Card with images of Brunch-->
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Bacon-Fetta and Zucchini Muffins .jpeg" class="card-img-top" alt="Bacon-Fetta and Zucchini Muffins">
-                    <div class="card-body">
-                      <h5 class="card-title">Bacon-Fetta and Zucchini Muffins</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Cheesy Bacon and Mushroom Bread Bake.jpeg" class="card-img-top" alt="Cheesy Bacon and Mushroom Bread Bake">
-                    <div class="card-body">
-                      <h5 class="card-title">Cheesy Bacon and Mushroom Bread Bake</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Family Breakfast Tart.jpeg" class="card-img-top" alt="Family Breakfast Tart">
-                    <div class="card-body">
-                      <h5 class="card-title">Family Breakfast Tart</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Weet-Bix Breakfast Cookies.jpeg" class="card-img-top" alt="Weet-Bix Breakfast Cookies">
-                    <div class="card-body">
-                      <h5 class="card-title">Weet-Bix Breakfast Cookies</h5>
-                    </div>
-                  </div>
-                </a>  
-              </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Recipe-banner.jpeg" class="d-block w-100" alt="Let's cook">
+            <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
-          <!--Tab of the button Soups-->
-          <div class="tab-pane fade" id="v-pills-soups" role="tabpanel" aria-labelledby="v-pills-soups-tab">
-            <!--Card with images of Soups-->
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Beef Ramen.jpeg" class="card-img-top" alt="Beef Ramen">
-                    <div class="card-body">
-                      <h5 class="card-title">Beef Ramen</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Chicken and Corn Soup.jpeg" class="card-img-top" alt="Chicken and Corn Soup">
-                    <div class="card-body">
-                      <h5 class="card-title">Chicken and Corn Soup</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Satay Noodle Prawn Soup.jpeg" class="card-img-top" alt="Satay Noodle Prawn Soup">
-                    <div class="card-body">
-                      <h5 class="card-title">Family Breakfast Tart</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Minestrone.jpeg" class="card-img-top" alt="Minestrone">
-                    <div class="card-body">
-                      <h5 class="card-title">Minestrone</h5>
-                    </div>
-                  </div>
-                </a>  
-              </div>
+          <div class="carousel-item">
+            <img src="images/Let's cook 2.jpg" class="d-block w-100" alt="Let's cook">
+            <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
-          
-          <!--Tab of the button Desserts-->
-          <div class="tab-pane fade" id="v-pills-desserts" role="tabpanel" aria-labelledby="v-pills-desserts-tab">
-            <!--Card with images of Desserts-->
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Dark Cherry Chocolate Crackles.jpeg" class="card-img-top" alt="Dark Cherry Chocolate Crackles">
-                    <div class="card-body">
-                      <h5 class="card-title">Dark Cherry Chocolate Crackles</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Decadent Chocolate Custards.jpeg" class="card-img-top" alt="Decadent Chocolate Custards">
-                    <div class="card-body">
-                      <h5 class="card-title">Decadent Chocolate Custards</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Traditional Hot Apple Pie Jaffles.jpeg" class="card-img-top" alt="Traditional Hot Apple Pie Jaffles">
-                    <div class="card-body">
-                      <h5 class="card-title">Traditional Hot Apple Pie Jaffles</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Carrot Cake.jpeg" class="card-img-top" alt="Carrot Cake">
-                    <div class="card-body">
-                      <h5 class="card-title">Carrot Cake</h5>
-                    </div>
-                  </div>
-                </a>  
-              </div>
+          <div class="carousel-item">
+            <img src="images/limon.jpg" class="d-block w-100" alt="LIMON">
+            <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
-         
-          <!--Tab of the button Dinner-->
-          <div class="tab-pane fade" id="v-pills-dinner" role="tabpanel" aria-labelledby="v-pills-dinner-tab">
-            <!--Card with images of Dinner-->
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Chicken Chow Mein.jpeg" class="card-img-top" alt="Chicken Chow Mein">
-                    <div class="card-body">
-                      <h5 class="card-title">Chicken Chow Mein</h5>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <nav>
+      <div class="container-md">
+        <!--Placeholder Content-->
+        <div class="d-flex align-items-start container-nav">
+          <!--Navigation bar buttons-->
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-brunch-tab" data-bs-toggle="pill" data-bs-target="#v-pills-brunch" type="button" role="tab" aria-controls="v-pills-brunch" aria-selected="true">Brunch</button>
+            <button class="nav-link" id="v-pills-soups-tab" data-bs-toggle="pill" data-bs-target="#v-pills-soups" type="button" role="tab" aria-controls="v-pills-soups" aria-selected="false">Soups</button>
+            <button class="nav-link" id="v-pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#v-pills-desserts" type="button" role="tab" aria-controls="v-pills-desserts" aria-selected="false">Desserts</button>
+            <button class="nav-link" id="v-pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dinner" type="button" role="tab" aria-controls="v-pills-dinner" aria-selected="false">Dinner</button>
+          </div>
+          <!--Tab of the navigation bar-->
+          <div class="tab-content" id="v-pills-tabContent">
+            <!--Tab of the button Brunch-->
+            <div class="tab-pane fade show active" id="v-pills-brunch" role="tabpanel" aria-labelledby="v-pills-brunch-tab">
+              <!--Card with images of Brunch-->
+              <div class="container">
+                <div class="row row-cols-2">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Bacon-Fetta and Zucchini Muffins .jpeg" alt="Bacon-Fetta and Zucchini Muffins">
+                        <div class="overlay">
+                          <h2>Bacon-Fetta and Zucchini Muffins</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+
                     </div>
                   </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Green Thai Curry Salmon.jpeg" class="card-img-top" alt="Green Thai Curry Salmon">
-                    <div class="card-body">
-                      <h5 class="card-title">Green Thai Curry Salmon</h5>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Baked eggs.jpeg" alt="Baked eggs">
+                        <div class="overlay">
+                          <h2>Baked eggs</h2>
+                          <a class="info" href="3-index.html">link here</a>
+                        </div>
                     </div>
                   </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="/2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Turkey Meatball Pad Thai.jpeg" class="card-img-top" alt="Turkey Meatball Pad Thai">
-                    <div class="card-body">
-                      <h5 class="card-title">Turkey Meatball Pad Thai</h5>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Cheesy Bacon and Mushroom Bread Bake.jpeg" alt="Cheesy Bacon and Mushroom Bread Bake">
+                        <div class="overlay">
+                          <h2>Cheesy Bacon and Mushroom Bread Bake</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
                     </div>
                   </div>
-                </a>
-              </div>
-              <div class="col">
-                <a href="2-index.html" target="_blank">
-                  <div class="card">
-                    <img src="/images/Bacon, Broccoli and Parmesan Pasta.jpeg" class="card-img-top" alt="Bacon, Broccoli and Parmesan Pasta">
-                    <div class="card-body">
-                      <h5 class="card-title">Bacon, Broccoli and Parmesan Pasta</h5>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Chicken and Corn Soup.jpeg" alt="Chicken and Corn Soup">
+                        <div class="overlay">
+                          <h2>Chicken and Corn Soup</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
                     </div>
                   </div>
-                </a>  
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Family Breakfast Tart.jpeg" alt="Family Breakfast Tart">
+                        <div class="overlay">
+                          <h2>Family Breakfast Tart</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/The Best Pancakes.jpeg" alt="The Best Pancakes">
+                        <div class="overlay">
+                          <h2>The Best Pancakes</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Weet-Bix Breakfast Cookies.jpeg" alt="Weet-Bix Breakfast Cookies">
+                        <div class="overlay">
+                          <h2>Weet-Bix Breakfast Cookies</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Brunch/Zucchini & Bacon Slice.jpeg" alt="Zucchini & Bacon Slice">
+                        <div class="overlay">
+                          <h2>Zucchini & Bacon Slice</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+            <!--Tab of the button Soups-->
+            <div class="tab-pane fade" id="v-pills-soups" role="tabpanel" aria-labelledby="v-pills-soups-tab">
+              <!--Card with images of Soups-->
+              <div class="container">
+                <div class="row row-cols-2">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Beef Ramen.jpeg" alt="Beef Ramen">
+                        <div class="overlay">
+                          <h2>Beef Ramen</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Chicken and Corn Soup.jpeg" alt="Chicken and Corn Soup">
+                        <div class="overlay">
+                          <h2>Chicken and Corn Soup</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Egg Drop Soup.jpeg" alt="Egg Drop Soup">
+                        <div class="overlay">
+                          <h2>Egg Drop Soup</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Minestrone.jpeg" alt="Minestrone">
+                        <div class="overlay">
+                          <h2>Minestrone</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Ribollita Toscana.jpeg" alt="Ribollita Toscana">
+                        <div class="overlay">
+                          <h2>Ribollita Toscana</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Satay Noodle Prawn Soup.jpeg" alt="Satay Noodle Prawn Soup">
+                        <div class="overlay">
+                          <h2>Satay Noodle Prawn Soup</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Speedy Tortilla Soup.jpeg" alt="Speedy Tortilla Soup">
+                        <div class="overlay">
+                          <h2>Speedy Tortilla Soup</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Soups/Tofu and Chicken Laksa .jpeg" alt="Tofu and Chicken Laksa">
+                        <div class="overlay">
+                          <h2>Tofu and Chicken Laksa</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Tab of the button Desserts-->
+            <div class="tab-pane fade" id="v-pills-desserts" role="tabpanel" aria-labelledby="v-pills-desserts-tab">
+              <!--Card with images of Desserts-->
+              <div class="container">
+                <div class="row row-cols-2">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Carrot Cake.jpeg" alt="Carrot Cake">
+                        <div class="overlay">
+                          <h2>Carrot Cake</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Crackle Banoffee Pie.jpeg" alt="Crackle Banoffee Pie">
+                        <div class="overlay">
+                          <h2>Crackle Banoffee Pie</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Dark Cherry Chocolate Crackles.jpeg" alt="Dark Cherry Chocolate Crackles">
+                        <div class="overlay">
+                          <h2>Dark Cherry Chocolate Crackles</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Decadent Chocolate Custards.jpeg" alt="Decadent Chocolate Custards">
+                        <div class="overlay">
+                          <h2>Decadent Chocolate Custards</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Lemon Coconut Slice.jpeg" alt="Lemon Coconut Slice">
+                        <div class="overlay">
+                          <h2>Lemon Coconut Slice</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Mini Blond Christmas Cakes.jpeg" alt="Mini Blond Christmas Cakes">
+                        <div class="overlay">
+                          <h2>Mini Blond Christmas Cakes</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Pink Jelly Cakes.jpeg" alt="Pink Jelly Cakes">
+                        <div class="overlay">
+                          <h2>Pink Jelly Cakes</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Desserts/Traditional Hot Apple Pie Jaffles.jpeg" alt="Traditional Hot Apple Pie Jaffles">
+                        <div class="overlay">
+                          <h2>Traditional Hot Apple Pie Jaffles</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Tab of the button Dinner-->
+            <div class="tab-pane fade" id="v-pills-dinner" role="tabpanel" aria-labelledby="v-pills-dinner-tab">
+              <!--Card with images of Dinner-->
+              <div class="container">
+                <div class="row row-cols-2">
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Bacon, Broccoli and Parmesan Pasta.jpeg" alt="Bacon, Broccoli and Parmesan Pasta">
+                        <div class="overlay">
+                          <h2>Bacon, Broccoli and Parmesan Pasta</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Bangers and Mash Pie.jpeg" alt="Bangers and Mash Pie">
+                        <div class="overlay">
+                          <h2>Bangers and Mash Pie</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Chicken Chow Mein.jpeg" alt="Chicken Chow Mein">
+                        <div class="overlay">
+                          <h2>Chicken Chow Mein</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Chicken Pesto Pasta.jpeg" alt="Chicken Pesto Pasta">
+                        <div class="overlay">
+                          <h2>Chicken Pesto Pasta</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Green Thai Curry Salmon.jpeg" alt="Green Thai Curry Salmon">
+                        <div class="overlay">
+                          <h2>Green Thai Curry Salmon</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Indian Curried Sausages.jpeg" alt="Indian Curried Sausages">
+                        <div class="overlay">
+                          <h2>Indian Curried Sausages</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Sweet and Sour Pork.jpeg" alt="Sweet and Sour Pork">
+                        <div class="overlay">
+                          <h2>Sweet and Sour Pork</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="/images/Dinner/Turkey Meatball Pad Thai.jpeg" alt="Turkey Meatball Pad Thai">
+                        <div class="overlay">
+                          <h2>Turkey Meatball Pad Thai</h2>
+                          <a class="info" href="2-index.html">link here</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </nav>
+    
+          
+      
+
+  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-
+    <script src="/app.js"></script> 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
     -->
+  
   </body>
 
 
