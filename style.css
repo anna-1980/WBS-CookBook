@@ -179,6 +179,16 @@ nav .container-nav {
     }
 
 .footer {
-    background-color:rgb(43, 151, 81)
+    background-color:rgb(43, 151, 81);
+    
+}
+.footer.p {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+ 
+ margin:0%
 }
 
